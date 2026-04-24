@@ -1,0 +1,40 @@
+{
+  "name": "@mukundakatta/context-forge",
+  "version": "0.1.0",
+  "description": "Context engineering toolkit for ranking, packing, and risk-scanning RAG context.",
+  "type": "module",
+  "bin": {
+    "context-forge": "src/cli.js",
+    "ctxforge": "src/cli.js"
+  },
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "pack:check": "npm pack --dry-run"
+  },
+  "keywords": [
+    "ai",
+    "llm",
+    "rag",
+    "context-engineering",
+    "prompt-injection",
+    "agents"
+  ],
+  "author": "Mukunda Katta",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MukundaKatta/context-forge.git"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
+
