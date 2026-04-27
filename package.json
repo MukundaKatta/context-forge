@@ -33,8 +33,11 @@
     "type": "git",
     "url": "git+https://github.com/MukundaKatta/context-forge.git"
   },
+  "bugs": {
+    "url": "https://github.com/MukundaKatta/context-forge/issues"
+  },
+  "homepage": "https://github.com/MukundaKatta/context-forge#readme",
   "engines": {
     "node": ">=18"
   }
 }
-
