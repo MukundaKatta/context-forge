@@ -76,3 +76,12 @@ The result of `packContext` has shape:
 }
 ```
 
+## Quality Gate
+
+Run the full local validation before publishing or opening a release PR:
+
+```bash
+npm run ci
+```
+
+The CI gate checks JavaScript syntax, runs the Node test suite, and verifies the package contents with a dry-run pack.
