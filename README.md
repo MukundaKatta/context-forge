@@ -85,3 +85,11 @@ npm run ci
 ```
 
 The CI gate checks JavaScript syntax, runs the Node test suite, and verifies the package contents with a dry-run pack.
+## Repository Health
+This repository includes a dependency-free health check for core documentation, metadata, and CI wiring. Run it locally before publishing changes:
+
+```sh
+python3 scripts/check_repository_health.py
+```
+
+The same check runs in GitHub Actions on pushes and pull requests.
